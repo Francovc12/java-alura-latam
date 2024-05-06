@@ -33,4 +33,11 @@ public class Serie extends Titulo {
     public void setMinutosPorCapitulo(int minutosPorCapitulo) {
         this.minutosPorCapitulo = minutosPorCapitulo;
     }
+
+    @Override
+    public void muestraFichaTecnica() {
+        super.muestraFichaTecnica();
+        System.out.println("Temporadas: "+ getTemporadas());
+        System.out.println("Episodios por temporada: "+ getEpisodiosPorTemporada());
+    }
 }
