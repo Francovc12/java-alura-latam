@@ -77,7 +77,7 @@ public class Principal {
                 default:
                     System.out.println("Opcion no valida");
                     break;
-                    //calculadora de maratonear una serie en horas o dias y tambien hacer el caso 2
+
             }
 
         }
